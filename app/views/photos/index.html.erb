@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<h1 class="text-dark">Imágenes Clasificadas</h1>
+
+<div class="form-group mt-2">
+
+  <%=  link_to 'Descargar como Excel',
+               photos_path(format: :xlsx), class: ["btn", "btn-primary"] %>
+</div>
+
+<table>
+  <thead>
+  <tr>
+    <th>Imagen</th>
+    <th>Etiqueta</th>
+    <th>Descripción</th>
+    <th colspan="3"></th>
+  </tr>
+  </thead>
+
+  <tbody>
+
+  <% @photos_classified.each do |photo| %>
+
+    <tr>
+
+      <td><%= image_tag photo.image ,{size: "300x150"} %></td>
+      <td><%= photo.label %></td>
+      <td><%= photo.description %></td>
+
+
+
+    </tr>
+
+  <% end %>
+
+
+  </tbody>
+</table>
+
+<br>
+<div class="form-group mt-2">
+  <%= link_to "Atrás", root_path, class: ["btn", "btn-secondary"] %>
+</div>

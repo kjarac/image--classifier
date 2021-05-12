@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ImageClassifier</title>
+  <%= csrf_meta_tags %>
+  <%= csp_meta_tag %>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+</head>
+<div id="container"   class= " p-3 bg-light text-dark mb-5">
+  <main class=  "col-sm-12 p-3"  id="main_content">
+    <%= yield %>
+  </main>
+</div>
+
+</html>

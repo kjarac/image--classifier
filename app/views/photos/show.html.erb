@@ -1,0 +1,21 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @photo.image %>
+</p>
+
+<p>
+  <strong>Label:</strong>
+  <%= @photo.label %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @photo.description %>
+</p>
+
+<div class="form-group mt-2">
+  <%= link_to 'Clasificar', edit_photo_path(@photo), class: ["btn", "btn-primary"]%>
+  <%= link_to "Atrás", root_path, class: ["btn", "btn-secondary"] %>
+</div>

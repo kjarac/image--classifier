@@ -1,0 +1,15 @@
+wb = xlsx_package.workbook
+wb.styles do |style|
+  project_heading = style.add_style(b: true, sz: 14)
+  heading = style.add_style(b: true)
+
+wb.add_worksheet(name: "Photos") do |sheet|
+    sheet.add_row ["Nombre", "Etiqueta","Descripción"], style: project_heading
+
+
+    @photos_classified.each do |photo|
+    sheet.add_row [photo.image, photo.label, photo.description]
+  end
+  sheet.add_row ["Downloaded at", Time.now.strftime("%b %-d, %Y")]
+ end
+end

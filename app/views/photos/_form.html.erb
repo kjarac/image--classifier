@@ -1,0 +1,42 @@
+<div class="row ml-0">
+  <%= form_with(model: photo, local: true) do |form| %>
+
+    <div class="mb-3">
+      <div class="field">
+        <%= image_tag photo.image, {size: "1264x499"}   %>
+      </div>
+
+      <div class="card mb-3">
+        <h5 class="card-header">Etiqueta</h5>
+        <div id="label"  class="form-group">
+          <% names = {"Normal" => "Normal", "Demre"=> "Demre", "Otro"=> "Otro",
+                      "Indefinido" =>  "Indefinido"} %>
+          <fieldset>
+            <%list= names.sort %>
+            <%list.each do |name|  %>
+              <fieldset>
+                <%= form.radio_button :label, name[0] %>
+                <label for="<%= name[0] %>"><%=name[1] %> </label>
+              </fieldset>
+            <%end %>
+          </fieldset>
+        </div>
+      </div>
+
+
+      <div id="description" class="field">
+        <%= form.label :descripción %>
+        <%= form.text_field :description %>
+      </div>
+
+      <br>
+
+    </div>
+
+    <div class="form-group mt-2">
+      <%= form.submit "Clasificar", class: ["btn", "btn-primary"] %>
+      <%= link_to "Dejar de clasificar", root_path, class: ["btn", "btn-secondary"] %>
+    </div>
+
+  <% end %>
+</div>
