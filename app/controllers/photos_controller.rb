@@ -33,12 +33,7 @@ class PhotosController < ApplicationController
 
   # POST /photos or /photos.json
   def create
-
     @photo = Photo.new(photo_params)
-
-
-
-
     respond_to do |format|
       if @photo.save
         format.html { redirect_to @photo, notice: "Photo was successfully created." }
@@ -53,12 +48,17 @@ class PhotosController < ApplicationController
   # PATCH/PUT /photos/1 or /photos/1.json
   def update
     respond_to do |format|
-      if @photo.update(photo_params)
-        format.html { redirect_to @photo, notice: "Photo was successfully updated." }
-        format.json { render :show, status: :ok, location: @photo }
+      if Photo.maximum(:id) == @photo.id
+        if @photo.update(photo_params)
+          format.html { redirect_to root_path}
+        end
       else
-        format.html { render :edit, status: :unprocessable_entity }
-        format.json { render json: @photo.errors, status: :unprocessable_entity }
+        if @photo.update(photo_params)
+          format.html { redirect_to edit_photo_path(@photo.id+1)}
+        else
+          format.html { render :edit, status: :unprocessable_entity }
+          format.json { render json: @photo.errors, status: :unprocessable_entity }
+        end
       end
     end
   end
@@ -75,7 +75,7 @@ class PhotosController < ApplicationController
   private
   # Use callbacks to share common setup or constraints between actions.
   def set_photo
-    @photo = Photo.find(params[:id])
+      @photo = Photo.find(params[:id])
   end
 
   # Only allow a list of trusted parameters through.
