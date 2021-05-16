@@ -8,10 +8,10 @@
       <div class="card">
         <h6 class="card-header font-weight-bold">Etiqueta</h6>
         <div id="label"  class="form-group">
-          <% names = {"Normal" => "Normal", "Demre"=> "Demre", "Otro"=> "Otro",
-                      "Indefinido" =>  "Indefinido"} %>
+          <% names = {"Alteración retina externa"=> "Alteración retina externa", "Normal" => "Normal","Indefinido" =>  "Indefinido",
+            "Otro"=> "Otro"} %>
           <fieldset>
-            <%list= names.sort %>
+            <%list= names %>
             <%list.each do |name|  %>
               <fieldset  class="col-sm  col-form-label-lg">
                 <%= form.radio_button :label, name[0] %>
@@ -23,6 +23,7 @@
               </fieldset>
             <%end %>
           </fieldset>
+
         </div>
       </div>
       </div>
