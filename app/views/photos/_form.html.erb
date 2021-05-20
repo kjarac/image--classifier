@@ -1,35 +1,31 @@
 <div class="row ml-0">
   <%= form_with(model: photo, local: true) do |form| %>
     <div class="field">
-      <div class="form-group">
-        <%= form.label :image,class:"text-success font-weight-bold" %>
-        <%= form.file_field :image%>
-      </div>
-
+      <%= image_tag photo.image, {size: "1150x350"}   %>
     </div>
     <div class="row">
       <div class="col-sm-5">
-      <div class="card">
-        <h6 class="card-header font-weight-bold">Etiqueta</h6>
-        <div id="label"  class="form-group">
-          <% names = {"Alteración retina externa"=> "Alteración retina externa", "Normal" => "Normal","Indefinido" =>  "Indefinido",
-            "Otro"=> "Otro"} %>
-          <fieldset>
-            <%list= names %>
-            <%list.each do |name|  %>
-              <fieldset  class="col-sm  col-form-label-lg">
-                <%= form.radio_button :label, name[0] %>
-                <label for="<%= name[0] %>"><%=name[1] %> </label>
-                <%if name[0] == "Otro" %>
-                  <%= form.label :":" %>
-                  <%= form.text_field :description %>
-                <%end %>
-              </fieldset>
-            <%end %>
-          </fieldset>
+        <div class="card">
+          <h6 class="card-header font-weight-bold">Etiqueta</h6>
+          <div id="label"  class="form-group">
+            <% names = {"Alteración retina externa"=> "Alteración retina externa", "Normal" => "Normal","Indefinido" =>  "Indefinido",
+                        "Otro"=> "Otro"} %>
+            <fieldset>
+              <%list= names %>
+              <%list.each do |name|  %>
+                <fieldset  class="col-sm  col-form-label-lg">
+                  <%= form.radio_button :label, name[0] %>
+                  <label for="<%= name[0] %>"><%=name[1] %> </label>
+                  <%if name[0] == "Otro" %>
+                    <%= form.label :":" %>
+                    <%= form.text_field :description %>
+                  <%end %>
+                </fieldset>
+              <%end %>
+            </fieldset>
 
+          </div>
         </div>
-      </div>
       </div>
       <div class="col-sm-3" >
         <br> <br><br><br>

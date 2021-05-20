@@ -26,7 +26,6 @@ gem 'jbuilder', '~> 2.7'
 gem 'rubyzip', '>= 1.2.1'
 gem 'caxlsx'
 gem 'caxlsx_rails'
-gem 'carrierwave'
 
 
 # Use Active Storage variant
