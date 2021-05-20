@@ -7,7 +7,7 @@
   <%=  link_to 'Descargar como Excel',
                photos_path(format: :xlsx), class: ["btn", "btn-primary"] %>
 </div>
-
+<%= link_to "UP", new_photo_path, class: ["btn", "btn btn-secondary btn-sm"] %>
 <table>
   <thead>
   <tr>
@@ -24,7 +24,7 @@
 
     <tr>
 
-      <td><%= image_tag photo.image ,{size: "300x150"} %></td>
+      <td><%= photo.image %></td>
       <td><%= photo.label %></td>
       <td><%= photo.description %></td>
 

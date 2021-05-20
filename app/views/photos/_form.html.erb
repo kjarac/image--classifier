@@ -1,7 +1,11 @@
 <div class="row ml-0">
   <%= form_with(model: photo, local: true) do |form| %>
     <div class="field">
-      <%= image_tag photo.image, {size: "1150x350"}   %>
+      <div class="form-group">
+        <%= form.label :image,class:"text-success font-weight-bold" %>
+        <%= form.file_field :image%>
+      </div>
+
     </div>
     <div class="row">
       <div class="col-sm-5">

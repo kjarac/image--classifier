@@ -56,7 +56,7 @@ class SassRailsTest < MiniTest::Test
   def test_setup_works
     initialize_dev!
 
-    asset = render_asset("application.scss")
+    asset = render_asset("application.css")
 
     assert_equal <<-CSS, asset
 .hello {
@@ -209,7 +209,7 @@ class SassRailsTest < MiniTest::Test
   def test_compression_works
     initialize_prod!
 
-    asset = render_asset("application.scss")
+    asset = render_asset("application.css")
     assert_equal <<-CSS, asset
 .hello{color:#FFF}
     CSS
@@ -218,7 +218,7 @@ class SassRailsTest < MiniTest::Test
   def test_compression_works
     initialize_prod!
 
-    asset = render_asset("application.scss")
+    asset = render_asset("application.css")
     assert_equal <<-CSS, asset
 .hello{color:#FFF}
     CSS
@@ -231,14 +231,14 @@ class SassRailsTest < MiniTest::Test
 
     initialize_prod!
 
-    render_asset("application.scss")
+    render_asset("application.css")
   end
 
   def test_allows_for_inclusion_of_inline_source_maps
     @app.config.sass.inline_source_maps = true
     initialize_dev!
 
-    asset = render_asset("application.scss")
+    asset = render_asset("application.css")
     assert_match /.hello/, asset
     assert_match /sourceMappingURL/, asset
   end

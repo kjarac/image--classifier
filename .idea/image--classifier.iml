@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/features" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
       <sourceFolder url="file://$MODULE_DIR$/test" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/tmp/cache" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
@@ -237,48 +238,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="axlsx (vbundled(2.1.0.pre)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
-      <library name="axlsx_rails (vbundled(0.6.1)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/axlsx_rails-0.6.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/axlsx_rails-0.6.1/spec" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/axlsx_rails-0.6.1/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/axlsx_rails-0.6.1/spec" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/axlsx_rails-0.6.1/spec" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="bindex (vbundled(0.8.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -408,6 +367,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="carrierwave (vbundled(2.2.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/carrierwave-2.2.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/carrierwave-2.2.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="caxlsx (vbundled(3.1.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -425,6 +397,24 @@
         <excluded>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx-3.1.0/test" />
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx-3.1.0/examples" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="caxlsx_rails (vbundled(0.6.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx_rails-0.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx_rails-0.6.2/spec" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx_rails-0.6.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx_rails-0.6.2/spec" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/caxlsx_rails-0.6.2/spec" />
         </excluded>
       </library>
     </orderEntry>
@@ -575,6 +565,19 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="image_processing (vbundled(1.12.1)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/image_processing-1.12.1/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/image_processing-1.12.1/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="jbuilder (vbundled(2.11.2)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -694,21 +697,16 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="mimemagic (vbundled(0.4.3)) [path][gem]" type="rubylib">
+      <library name="mini_magick (vbundled(4.11.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
         </properties>
         <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mimemagic-0.4.3/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mimemagic-0.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mini_magick-4.11.0/lib" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mimemagic-0.4.3/ext" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mimemagic-0.4.3/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mini_magick-4.11.0/lib" />
         </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/mimemagic-0.4.3/ext" />
-        </excluded>
       </library>
     </orderEntry>
     <orderEntry type="module-library">
@@ -1178,6 +1176,27 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
+      <library name="ruby-vips (vbundled(2.1.2)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/example" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/lib" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/example" />
+        </SOURCES>
+        <excluded>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/.github" />
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ruby-vips-2.1.2/example" />
+        </excluded>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
       <library name="ruby_dep (vbundled(1.5.0)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
@@ -1353,6 +1372,19 @@
         </CLASSES>
         <SOURCES>
           <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/sprockets-rails-3.2.2/lib" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="ssrf_filter (vbundled(1.0.7)) [path][gem]" type="rubylib">
+        <properties>
+          <option name="version" value="4" />
+        </properties>
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ssrf_filter-1.0.7/lib" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/gems/ssrf_filter-1.0.7/lib" />
         </SOURCES>
       </library>
     </orderEntry>

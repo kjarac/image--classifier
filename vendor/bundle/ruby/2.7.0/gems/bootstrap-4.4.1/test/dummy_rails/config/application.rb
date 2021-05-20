@@ -21,8 +21,8 @@ module Dummy
   class Application < Rails::Application
     config.assets.enabled = true if config.assets.respond_to?(:enabled)
     if Rails::VERSION::MAJOR > 4
-      # Rails 4 precompiles application.scss|js by default, but future version of Rails do not.
-      config.assets.precompile += %w( application.scss application.js )
+      # Rails 4 precompiles application.css|js by default, but future version of Rails do not.
+      config.assets.precompile += %w( application.css application.js )
     end
     config.to_prepare do
       if ENV['VERBOSE']

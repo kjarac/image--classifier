@@ -140,6 +140,6 @@ class HelperTest < ActionView::TestCase
     assert_equal \
       %(<link rel="stylesheet" media="all" href="/packs/bootstrap-c38deda30895059837cf.css" />\n) +
         %(<link rel="stylesheet" media="all" href="/packs/application-dd6b1cd38bfa093df600.css" />),
-      stylesheet_pack_tag("bootstrap.css", "application.scss", media: "all")
+      stylesheet_pack_tag("bootstrap.css", "application.css", media: "all")
   end
 end

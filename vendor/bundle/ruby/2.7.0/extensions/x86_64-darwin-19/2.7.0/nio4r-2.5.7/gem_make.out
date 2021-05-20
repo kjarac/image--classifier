@@ -1,5 +1,5 @@
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
-/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210511-600-1jg572l.rb extconf.rb
+/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210520-37477-16tkhyo.rb extconf.rb
 checking for unistd.h... yes
 checking for linux/aio_abi.h... no
 checking for linux/io_uring.h... no
@@ -103,4 +103,4 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/nio4r-2.5.7/ext/nio4r
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20210511-600-1uy84ov
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 nio4r_ext.bundle ./.gem.20210520-37477-11ksc1w
