@@ -237,30 +237,6 @@
       </library>
     </orderEntry>
     <orderEntry type="module-library">
-      <library name="axlsx (vbundled(2.1.0.pre)) [path][gem]" type="rubylib">
-        <properties>
-          <option name="version" value="4" />
-        </properties>
-        <CLASSES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </CLASSES>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/lib" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </SOURCES>
-        <excluded>
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/.git" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/test" />
-          <root url="file://$MODULE_DIR$/vendor/bundle/ruby/2.7.0/bundler/gems/axlsx-c8ac844572b2/examples" />
-        </excluded>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="axlsx_rails (vbundled(0.6.1)) [path][gem]" type="rubylib">
         <properties>
           <option name="version" value="4" />
