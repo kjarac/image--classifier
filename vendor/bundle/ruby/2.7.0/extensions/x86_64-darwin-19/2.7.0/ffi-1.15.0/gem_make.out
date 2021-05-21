@@ -1,5 +1,5 @@
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.0/ext/ffi_c
-/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210520-37477-1o737lz.rb extconf.rb
+/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210521-77461-pmue5d.rb extconf.rb
 checking for ffi_prep_closure_loc() in -lffi... yes
 checking for ffi_prep_cif_var()... yes
 checking for ffi_raw_call()... yes
@@ -42,4 +42,4 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/ffi-1.15.0/ext/ffi_c
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20210520-37477-1nnozkh
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 ffi_c.bundle ./.gem.20210521-77461-6vh3if

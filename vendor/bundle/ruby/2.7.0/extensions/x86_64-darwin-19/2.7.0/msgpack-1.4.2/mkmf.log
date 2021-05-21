@@ -126,7 +126,7 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 Undefined symbols for architecture x86_64:
   "_rb_enc_interned_str", referenced from:
-      _t in conftest-177fd3.o
+      _t in conftest-7e6a9a.o
 ld: symbol(s) not found for architecture x86_64
 clang: error: linker command failed with exit code 1 (use -v to see invocation)
 checked program was:

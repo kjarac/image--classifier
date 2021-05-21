@@ -1,5 +1,5 @@
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
-/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210520-37477-1ned1a4.rb extconf.rb
+/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210521-77461-15ignrp.rb extconf.rb
 checking for ruby/st.h... yes
 checking for st.h... yes
 checking for rb_str_replace() in ruby.h... yes
@@ -56,4 +56,4 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/msgpack-1.4.2/ext/msgpack
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20210520-37477-12g1sp3/msgpack
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 msgpack.bundle ./.gem.20210521-77461-1vmrkam/msgpack

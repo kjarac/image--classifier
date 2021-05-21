@@ -1,5 +1,5 @@
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
-/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210520-37477-obh6s0.rb extconf.rb
+/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210521-77461-1m5ftta.rb extconf.rb
 creating Makefile
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
@@ -80,4 +80,4 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/sassc-2.4.0/ext
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210520-37477-1faiw1e/sassc
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 libsass.bundle ./.gem.20210521-77461-1lloktu/sassc

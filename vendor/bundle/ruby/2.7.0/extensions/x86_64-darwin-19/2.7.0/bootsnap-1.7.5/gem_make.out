@@ -1,5 +1,5 @@
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
-/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210520-37477-t8redf.rb extconf.rb
+/Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/bin/ruby -I /Users/katherinejaracarrasco/.rvm/rubies/ruby-2.7.1/lib/ruby/2.7.0 -r ./siteconf20210521-77461-6l6u6p.rb extconf.rb
 creating Makefile
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
@@ -15,4 +15,4 @@ ld: warning: directory not found for option '-L/usr/local/opt/zlib/lib'
 
 current directory: /Users/katherinejaracarrasco/image--classifier/vendor/bundle/ruby/2.7.0/gems/bootsnap-1.7.5/ext/bootsnap
 make "DESTDIR=" install
-/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20210520-37477-1koiiyl/bootsnap
+/usr/local/opt/coreutils/bin/ginstall -c -m 0755 bootsnap.bundle ./.gem.20210521-77461-ruk2f2/bootsnap

@@ -5,8 +5,12 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
-@images = Dir.glob("app/assets/images/database/*")
+#@images = Dir.glob("app/assets/images/database/*")
 
-for image in @images
-  Photo.create(image: "database/#{image.split('/').last}", label: '', description:'')
+#for image in @images
+# Photo.create(image: "database/#{image.split('/').last}", label: '', description:'')
+#end
+require 'csv'
+CSV.foreach(Rails.root.join('app/assets/images/path_images.csv'), headers: false) do |row|
+  Photo.create(image: row[0], label: '', description: '')
 end
